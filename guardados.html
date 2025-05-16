@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <title>Simulacro PP - 2024</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="d-flex justify-content-between align-items-center">
+                    <img
+                        src="https://fontmeme.com/permalink/250509/308bd33365ab4845d0ac76c27df3d4e9.png"
+                        alt="logo"
+                    />
+                    <button id="boton-tema">
+                        <i class="bi bi-moon-fill" id="icono-tema"></i>
+                    </button>
+                </div>
+                <h3 class="text-center">
+                    Simulacro PP - Programación III - 2024
+                </h3>
+            </header>
+            <nav id="panel-izquierda">
+                <a class="link" href="./index.html">Inicio</a>
+                <a class="link" href="./guardados.html">Guardados</a>
+            </nav>
+            <section class="p-3" id="principal">
+                <div class="botones-pagina mb-2">
+                    <button id="ordenarNombre">Ordenar por nombre</button>
+                    <button id="ordenarId">Ordenar por id</button>
+                </div>
+
+                <div id="series-favoritas">
+                    <!-- Aquí se deben mostrar las series / peliculas -->
+                </div>
+            </section>
+        </main>
+    </body>
+    <script type="module" src="guardados.js"></script>
+</html>
